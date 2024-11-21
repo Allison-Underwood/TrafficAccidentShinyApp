@@ -5,7 +5,7 @@ library(dplyr) #for rounding the latitude and longitude
 library(ggplot2) 
 library(giscoR) #for the Grey Map
 library(maps) #to place the points in the map
-library(DT) 
+library(DT) #for the data table
 
 accident <- read.csv("accident.csv",
                      na.strings= c("NOT APPLICABLE","Not Applicable",
