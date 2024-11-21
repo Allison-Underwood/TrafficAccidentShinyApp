@@ -7,6 +7,8 @@ library(giscoR) #for the Grey Map
 library(maps) #to place the points in the map
 library(DT) #for the data table
 
+#test of color_change branch 
+
 accident <- read.csv("accident.csv",
                      na.strings= c("NOT APPLICABLE","Not Applicable",
                                    "Unknown","None","Not Applicable (Not Transported)",
